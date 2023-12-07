@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     final size=MediaQuery.of(context).size;
-    final font=size.height*0.05;
+    final font=size.width*0.08;
     return Scaffold(
       
       body: Stack(
@@ -88,7 +88,7 @@ class _MyAppState extends State<MyApp> {
          
             
             Padding(
-              padding:  EdgeInsets.only(top: size.height * 0.12,left: 60,right: 60),
+              padding:  EdgeInsets.only(top: size.height * 0.19,left: 60,right: 60),
               child: Container(
                 
               decoration: BoxDecoration(
